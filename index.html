@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href='https://fonts.googleapis.com/css?family=Barlow Semi Condensed' rel='stylesheet'>
+
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors, Lizard, Spock</title>
+  
+  <link rel="stylesheet" href="styles.css">
+
+ 
+
+  Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again
+
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+ <div class="object-score-wrapper">
+
+  <div class="object-score">
+
+    <div  >
+            <img src="./images/logo-bonus.svg" alt="" id="rps-image">
+
+    </div>
+
+    <div class="score-wrapper">
+      <div>
+        <p class="score-text">SCORE</p>
+      <p id="score">12</p>
+      </div>
+      
+
+    </div>
+
+  </div>
+
+  </div> 
+  <!-- End of score section -->
+<main>
+   <div class="wrapper" >
+    <div class="boxes-wrapper">
+   <div class="container">
+       <div class="box one">
+        <!-- start of scissors -->
+        <div class="scissors-placement ">
+
+          <div class="dark-yellow">
+  
+  <div class="scissors selectable-object">
+            <!-- <img class="scissor-object-image" src="./images/icon-scissors.svg"> -->
+            <div class="inner-container scissor-toggle">
+  
+              <div class="inner-circle "></div>
+              <div class="inner-circle2">
+    
+                <img class="scissor-object-image inner-circle-container"src="./images/icon-scissors.svg">
+    
+              </div>
+    
+            </div>
+        
+        
+          </div>
+  
+          
+            
+      
+          
+          </div>
+   
+          
+  
+          <!-- <span class="selected-text">THE HOUSE PICKED</span> -->
+  
+      
+          <!-- <img src="./images/logo.svg" style="width:100%"> -->
+         
+           </div>       
+           
+           <!-- end of scissors -->
+
+       </div>
+   </div>
+
+   
+   <div class="container-3">
+     <div class="box five">
+      <div class="spock-placement ">
+
+        <div class="dark-cyan">
+
+<div class="spock selectable-object">
+          <!-- <img class="scissor-object-image" src="./images/icon-scissors.svg"> -->
+          <div class="inner-container spock-toggle">
+
+            <div class="inner-circle "></div>
+            <div class="inner-circle2">
+  
+              <img class="spock-object-image inner-circle-container"src="./images/icon-spock.svg">
+  
+            </div>
+  
+          </div>
+      
+      
+        </div>
+
+        
+          
+    
+        
+        </div>
+ 
+        
+
+        <!-- <span class="selected-text">THE HOUSE PICKED</span> -->
+
+    
+        <!-- <img src="./images/logo.svg" style="width:100%"> -->
+       
+         </div>   
+     </div>
+     <div class="box six">
+      <div class="spock-placement ">
+
+        <div class="dark-blue">
+
+<div class="paper selectable-object">
+          <!-- <img class="scissor-object-image" src="./images/icon-scissors.svg"> -->
+          <div class="inner-container paper-toggle">
+
+            <div class="inner-circle "></div>
+            <div class="inner-circle2">
+  
+              <img class="paper-object-image inner-circle-container"src="./images/icon-paper.svg">
+  
+            </div>
+  
+          </div>
+      
+      
+        </div>
+
+        
+          
+    
+        
+        </div>
+ 
+        
+
+        <!-- <span class="selected-text">THE HOUSE PICKED</span> -->
+
+    
+        <!-- <img src="./images/logo.svg" style="width:100%"> -->
+       
+         </div>   
+     </div>
+
+   </div>
+
+   <div class="container-2">
+    <div class="box three">
+      <div class="lizard-placement ">
+
+        <div class="dark-purple">
+
+<div class="lizard selectable-object">
+          <!-- <img class="scissor-object-image" src="./images/icon-scissors.svg"> -->
+          <div class="inner-container lizard-toggle">
+
+            <div class="inner-circle "></div>
+            <div class="inner-circle2">
+  
+              <img class="lizard-object-image inner-circle-container"src="./images/icon-lizard.svg">
+  
+            </div>
+  
+          </div>
+      
+      
+        </div>
+
+        
+          
+    
+        
+        </div>
+ 
+        
+
+        <!-- <span class="selected-text">THE HOUSE PICKED</span> -->
+
+    
+        <!-- <img src="./images/logo.svg" style="width:100%"> -->
+       
+         </div>
+    </div>
+       <div class="box four">
+        <div class="lizard-placement ">
+
+          <div class="dark-red">
+  
+  <div class="rock selectable-object">
+            <!-- <img class="scissor-object-image" src="./images/icon-scissors.svg"> -->
+            <div class="inner-container rock-toggle">
+  
+              <div class="inner-circle "></div>
+              <div class="inner-circle2">
+    
+                <img class="rock-object-image inner-circle-container"src="./images/icon-rock.svg">
+    
+              </div>
+    
+            </div>
+        
+        
+          </div>
+  
+          
+            
+      
+          
+          </div>
+   
+          
+  
+          <!-- <span class="selected-text">THE HOUSE PICKED</span> -->
+  
+      
+          <!-- <img src="./images/logo.svg" style="width:100%"> -->
+         
+           </div>
+       </div>
+ </div>
+   
+     
+      
+
+
+   </div>
+
+   <div class="image-c">
+     <img src="./images/bg-pentagon.svg" alt="">
+   </div>
+   
+
+</main>
+<div class="button-wrapper">
+  <button class="rules-button">RULES</button>
+
+</div>
+
+ 
+</body>
+</html>
